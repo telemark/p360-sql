@@ -47,8 +47,8 @@ $ ./cli.js usersByRole
 ### Result
 
 ```json
-{"role":"LÃ¦rer","name":"Guest User","userId":"GuestUser","enterpriseNumber1":"974568039","enterpriseNumber2":null}
-{"role":"LÃ¦rer","name":"Testine Testen","userId":"login\\01016101","enterpriseNumber1":"974568039","enterpriseNumber2":null}
+{"role":"Lærer","name":"Guest User","userId":"GuestUser","enterpriseNumber1":"974568039","enterpriseNumber2":null}
+{"role":"Lærer","name":"Testine Testen","userId":"login\\01016101","enterpriseNumber1":"974568039","enterpriseNumber2":null}
 ```
 
 ## Usage - access groups on case documents
