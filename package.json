@@ -1,0 +1,46 @@
+{
+  "name": "p360-sql",
+  "description": "Runs scripts against 360-database",
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": {
+    "name": "Jonas Enge",
+    "email": "jonas.enge@t-fk.no",
+    "url": "https://github.com/maccyber"
+  },
+  "contributors": [
+    {
+      "name": "Geir Gåsodden",
+      "email": "geir.gasodden@pythonia.no",
+      "url": "https://github.com/zrrrzzt"
+    }
+  ],
+  "engines": {
+    "node": ">=4.3.1"
+  },
+  "bin": {
+    "p360-duplicates": "cli.js"
+  },
+  "scripts": {
+    "test": "standard && tap --reporter=spec test/*.js",
+    "setup": "npm install && node setup.js",
+    "coverage": "tap test/*.js --coverage",
+    "coveralls": "tap --cov --coverage-report=lcov test/*.js && cat coverage/lcov.info | coveralls"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/telemark/node-p360-duplicate-contacts.git"
+  },
+  "bugs": {
+    "url": "http://github.com/telemark/node-p360-duplicate-contacts/issues"
+  },
+  "dependencies": {
+    "mssql": "3.3.0",
+    "opn": "4.0.2"
+  },
+  "devDependencies": {
+    "coveralls": "2.11.12",
+    "standard": "8.0.0-beta.5",
+    "tap": "6.3.2"
+  }
+}
