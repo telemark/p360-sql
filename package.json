@@ -1,7 +1,7 @@
 {
   "name": "p360-sql",
   "description": "Runs scripts against 360-database",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "author": {
     "name": "Jonas Enge",
