@@ -8,9 +8,9 @@ Set @LanguageCode = 'NOR';
 SELECT
 Role.uro_code as 'role',
 Contact.ct_name2 + ' ' + Contact.ct_name3 as name,
-REPLACE(Usr.us_id, 'login\', '') as 'userId',
-Enterprise.ct_referencenumber as "enterpriseNumber1",
-EnterpriseRef.cte_id as "enterpriseNumber2"
+REPLACE(Usr.us_id, 'login\', '') as userId,
+Enterprise.ct_referencenumber as enterpriseNumber1,
+EnterpriseRef.cte_id as enterpriseNumber2
 
 FROM us_user as Usr
 
