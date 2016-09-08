@@ -35,8 +35,8 @@ $ ./cli.js usersByAccessGroup
 ### Result
 
 ```json
-{"accessGroup":"Elev-Skien","name":"Testine Testen","userId":"login\\01016101"}
-{"accessGroup":"Elev-Skien","name":"Hans Håve","userId":"login\\1104hava"}
+{"accessGroup":"Elev-Skien","name":"Testine Testen","userId":"01016101"}
+{"accessGroup":"Elev-Skien","name":"Hans Håve","userId":"1104hava"}
 ```
 
 ## Usage - users by role
@@ -48,7 +48,7 @@ $ ./cli.js usersByRole
 
 ```json
 {"role":"Lærer","name":"Guest User","userId":"GuestUser","enterpriseNumber1":"974568039","enterpriseNumber2":null}
-{"role":"Lærer","name":"Testine Testen","userId":"login\\01016101","enterpriseNumber1":"974568039","enterpriseNumber2":null}
+{"role":"Lærer","name":"Testine Testen","userId":"01016101","enterpriseNumber1":"974568039","enterpriseNumber2":null}
 ```
 
 ## Usage - access groups on case documents
