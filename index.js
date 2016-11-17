@@ -3,7 +3,7 @@
 // Local requirements
 const runQuery = require('./lib/runQuery')
 const query = require('./lib/queries')
-const validTypes = ['duplicateStudentFolders', 'duplicateContacts', 'usersByAccessGroup', 'usersByRole', 'accessGroupsOnCase']
+const validTypes = ['duplicateStudentFolders', 'duplicateContacts', 'usersByAccessGroup', 'usersByRole', 'accessGroupsOnCase', 'usersByRoleSaksbehandler', 'usersByRoleLeder']
 
 module.exports = (type, callback) => {
   if (!type) {
