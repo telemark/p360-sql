@@ -1,5 +1,7 @@
 # p360-sql
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/telemark/p360-sql.svg)](https://greenkeeper.io/)
+
 ## Installation
 ```sh
 $ npm install
