@@ -39,8 +39,8 @@
     "opn": "4.0.2"
   },
   "devDependencies": {
-    "coveralls": "2.11.12",
-    "standard": "8.0.0-beta.5",
-    "tap": "6.3.2"
+    "coveralls": "2.11.16",
+    "standard": "8.6.0",
+    "tap": "10.0.2"
   }
 }
