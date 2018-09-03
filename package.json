@@ -39,7 +39,7 @@
     "opn": "4.0.2"
   },
   "devDependencies": {
-    "coveralls": "2.11.12",
+    "coveralls": "3.0.2",
     "standard": "12.0.1",
     "tap": "12.0.1"
   }
